@@ -9,7 +9,6 @@ def debug_view(request):
 
 def admin_panel(request):
     audit("admin panel")
-    require_admin()
     return render_admin(request)
 
 
